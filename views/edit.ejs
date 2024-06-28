@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+    <link rel="stylesheet" href="edit.css">
+</head>
+
+<body>
+    <h1 class="main-heading">Edit the post</h1>
+    <form action="/edit?_method=PATCH"  method="post" class="edit-form">
+        <div class="form-group">
+            <h2 class="form-heading">Give image link</h2>
+            <input type="text" name="imageLink" class="input-field" placeholder="Image link here for new image" value="<%= postContent.imageLink %>">
+        </div>
+        <div class="form-group">
+            <h2 class="form-heading">New heading</h2>
+            <input type="text" name="heading"  class="input-field" placeholder="Enter new heading" value="<%= postContent.heading %>">
+        </div>
+        <div class="form-group">
+            <h2 class="form-heading">Content</h2>
+            <textarea name="content" class="textarea-field" placeholder="Enter content"><%= postContent.content %></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Update Post</button>
+    </form>
+</body>
+
+</html>

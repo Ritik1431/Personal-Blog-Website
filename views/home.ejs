@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 class="heading1">EVERYTHING IS PERSONAL. INCLUDING THIS BLOG.</h3>
+            <h1 class="heading2">Train of Thought</h1>
+        </div>
+        <div class="navbar">
+            <div class="empty1 nav"></div>
+            <div class="Home nav">Home</div>
+            <div class="About nav">About</div>
+            <div class="My-Blog nav">My-Blog</div>
+            <div class="Contact nav">Contact</div>
+            <div class="Search nav"><input type="text" placeholder="Search" id="Search-box"><span
+                    class="material-symbols-outlined">
+                    search
+                </span></div>
+            <div class="Icons nav">Icons</div>
+            <div class="empty2 nav"></div>
+        </div>
+        <div class="main">
+            <div class="heading-main">
+                <h3>FEATURED POST</h3>
+            </div>
+            <div class="img"><img src="<%= postContent.imageLink %>" alt=""></div>
+            <div class="details">
+                <div class="detail">
+                    <h4>Mar 23, 2023 . 2 min</h4>
+                    <h2>
+                        <%= postContent.heading %>
+                    </h2>
+                    <h3>
+                        <%= postContent.content %>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    <footer class="footer">
+        <form action="/edit" method="get">
+            <button id="edit-button" type="submit">Edit</button>
+        </form>
+    </footer>
+    </div>
+</body>
+
+</html>

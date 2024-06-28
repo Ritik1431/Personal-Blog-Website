@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  align-items: center;
+  justify-content: space-around;
+}
+.header {
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.heading1 {
+  font-size: 25px;
+  font-weight: 10;
+  letter-spacing: 6px;
+}
+.heading2 {
+  font-size: 90px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+.nav {
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  padding-top: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid black;
+  cursor: pointer;
+}
+.nav:hover {
+  color: rgb(97, 0, 224);
+}
+.empty2 {
+  border-right: none;
+}
+#Search-box {
+  font-size: 18px;
+  border: none;
+  height: 100%;
+  text-align: center;
+  width: 80%;
+  outline: none;
+}
+.main {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.nav i {
+  color: black;
+}
+.Search {
+  padding-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading-main {
+  border: 1px solid black;
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 8px;
+  position: absolute;
+  top: 360px;
+  z-index: 1;
+  background-color: white;
+}
+img {
+  width: 100%;
+  height: 500px;
+  
+}
+
+.img {
+  height: 500px;
+  position: relative;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.details {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-top: none;
+}
+.details > .detail > h4 {
+  font-size: 10px;
+  padding: 10px;
+
+
+}
+.details > .detail > h2{
+  padding: 5px;
+}
+.details > .detail > h3 {
+  font-size: 15px;
+  padding-bottom: 2rem;
+}
+.detail{
+  width: 860px;
+  margin: 0 auto;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#edit-button {
+  height: 40px;
+  width: 120px;
+  margin: 2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#edit-button:hover {
+  background-color: #0056b3;
+}
