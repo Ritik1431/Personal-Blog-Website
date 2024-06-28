@@ -4,6 +4,9 @@
 
 This project is a simple blog application built using Node.js and Express.js. It allows users to view a blog post on the home page and provides an interface to edit the post. The post content can be updated via a PATCH request.
 
+![localhost_3000_home](https://github.com/Ritik1431/Personal-Blog-Website/assets/94741846/734c7c08-5490-472a-816f-78ff2ef71f60)
+
+
 ## Features
 
 - **Home Page**: Displays the current blog post with an image, heading, and content.
